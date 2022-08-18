@@ -9,4 +9,9 @@ class ContatoController extends Controller
     public function index(){
         return view('site.contato');
     }
+
+    public function store(){
+        var_dump($_POST);
+        //return view('site.contato');
+    }
 }
